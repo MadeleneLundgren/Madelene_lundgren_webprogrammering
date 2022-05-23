@@ -1,0 +1,290 @@
+/* Style för header på alla sidor förutom intresse.html */
+
+header {
+    position: relative;
+}
+
+header img {
+
+    background-image: url('images/KoreanFlag.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    width: 100%;
+    height: 400px;
+
+}
+
+header span {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-size: 3rem;
+    color: darkblue;
+}
+
+/* Style för nav på alla sidor */
+
+nav {
+    background-color: white;
+    float: left;
+    width: 100%;
+    margin-top: 0.5%;
+    margin-right: 1%;
+    margin-bottom: 0.5%;
+    margin-left: 1%;
+    font-family: cursive;
+
+}
+
+/* Style för main på alla sidor */
+
+main {
+    background-color: white;
+    /* float: left; */
+    width: 72%;
+    /* margin-top: 0.5%; */
+    /* margin-right: 7%; */
+    /* margin-bottom: 0.5%; */
+    /* margin-left: 0.5%; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+main figure {
+    text-align: center;
+    box-shadow: 2px 4px 4px darkblue
+}
+
+main h1 {
+    text-align: center;
+    color: darkblue;
+    font-size: 2em;
+
+}
+
+main h2 {
+    text-align: center;
+    color: darkblue;
+
+}
+
+
+
+main article {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1%;
+}
+
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main #tips {
+    text-align: center;
+}
+
+
+
+main ol {
+    color: purple;
+    font-family: cursive;
+}
+
+
+main p:hover {
+    color: darkmagenta
+}
+
+
+main hr {
+    text-align: center;
+    color: purple;
+
+}
+
+main ul {
+    color: plum;
+}
+
+main ul #dark {
+    color: darkmagenta;
+
+}
+
+
+
+/* Style för body på alla sidor */
+body {
+    background-color: lightblue;
+}
+
+/* Style för aside på alla sidor */
+
+
+aside {
+    background-color: lightcoral;
+    /* float: left; */
+    width: 28%;
+    /* margin-top: 0.5%; */
+    /* margin-right: 0.5%; */
+    /* margin-left: 7%; */
+    /* margin-bottom: 0.5%; */
+    font-family: serif;
+    font-style: italic;
+}
+
+aside h2 {
+    text-align: center;
+    color: white;
+}
+
+aside #mail_link {
+    margin-left: 4%
+}
+
+
+aside blockquote {
+    text-align: center
+}
+
+aside div {
+    text-align: center;
+}
+
+
+div.video {
+    text-align: center;
+}
+
+div.table {
+    margin-left: 8%;
+    color: rgb(68, 9, 68);
+
+
+}
+
+div.form {
+    background-color: rgb(240, 223, 229);
+}
+
+div.form:hover {
+    color: rgb(65, 11, 65);
+}
+
+div#page {
+    width: 86%;
+    margin: 0 auto;
+    display: flex
+}
+
+/* Style för footer på alla sidor */
+
+footer {
+    background-color: darkblue;
+    float: left;
+    width: 86%;
+    margin-top: 0.5%;
+    margin-right: 7%;
+    margin-bottom: 0.5%;
+    margin-left: 7%;
+    font-family: monospace;
+}
+
+div.wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+
+}
+
+div.wrapper h3 {
+
+    color: peru;
+
+    flex: 1;
+    width: 40%;
+    margin-left: 15%;
+
+
+}
+
+div.wrapper img {
+    flex: 1;
+    width: 30%;
+    margin-top: 1%;
+    margin-right: 20%;
+
+
+}
+
+
+/* Style för galleri */
+
+
+
+div.gallery {
+    background-color: lavenderblush;
+    box-sizing: flex-box;
+    display: flex;
+
+}
+
+figure.item {
+    width: 28%;
+    border: 1px solid rgb(150, 120, 150);
+    background-color: rgb(247, 221, 244);
+    margin: 2%;
+    float: left;
+
+}
+
+figure.item img {
+    width: 100%;
+    text-align: center;
+}
+
+figure.item figcaption {
+    padding: 10px;
+    text-align: center;
+}
+
+figure.item img:hover {
+    opacity: 0.7
+}
+
+
+/* För mobil - anpassa utseende för stående */
+
+@media (min-width: 320px) {
+
+}
+
+/* För mobil - anpassa utseende för landscape mode */
+
+@media (min-width: 578px) {
+
+}
+
+/* För plattor - anpassa utseende för 768px */
+
+@media (min-width: 768px) {
+
+}
+
+/* För plattor - anpassa utseende för 1200px*/
+
+@media (min-width: 1200px) {
+    div.wrapper {
+        display:flex;
+    }
+}
+
+
