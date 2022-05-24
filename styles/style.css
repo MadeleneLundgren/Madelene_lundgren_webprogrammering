@@ -12,6 +12,7 @@ header img {
     background-position-y: 50%;
     width: 100%;
     height: 400px;
+    opacity: 0.2;
 
 }
 
@@ -26,7 +27,7 @@ header span {
 /* Style för nav på alla sidor */
 
 nav {
-    background-color: white;
+    background-color: rgb(81, 96, 184);
     float: left;
     width: 100%;
     margin-top: 0.5%;
@@ -35,6 +36,10 @@ nav {
     margin-left: 1%;
     font-family: cursive;
 
+}
+
+nav a[href] {
+    color: white;
 }
 
 /* Style för main på alla sidor */
@@ -53,19 +58,19 @@ main {
 
 main figure {
     text-align: center;
-    box-shadow: 2px 4px 4px darkblue
+    box-shadow: 2px 4px 4px rgb(81, 96, 184)
 }
 
 main h1 {
     text-align: center;
-    color: darkblue;
+    color: rgb(81, 96, 184);
     font-size: 2em;
 
 }
 
 main h2 {
     text-align: center;
-    color: darkblue;
+    color: rgb(81, 96, 184);
 
 }
 
@@ -75,6 +80,7 @@ main article {
     margin-left: 5%;
     margin-right: 5%;
     padding: 1%;
+    
 }
 
 
@@ -97,22 +103,24 @@ main ol {
 
 
 main p:hover {
-    color: darkmagenta
+    color: rgb(214, 94, 94);
 }
 
 
 main hr {
     text-align: center;
-    color: purple;
+    border-style:dotted;
+    border-width: 2px;
+    color: rgb(81, 96, 184);
 
 }
 
 main ul {
-    color: plum;
+    color: rgb(214, 94, 94);
 }
 
 main ul #dark {
-    color: darkmagenta;
+    color: rgb(214, 94, 94);
 
 }
 
@@ -120,14 +128,14 @@ main ul #dark {
 
 /* Style för body på alla sidor */
 body {
-    background-color: lightblue;
+    background-color: white;
 }
 
 /* Style för aside på alla sidor */
 
 
 aside {
-    background-color: lightcoral;
+    background-color: rgb(214, 94, 94);
     /* float: left; */
     width: 28%;
     /* margin-top: 0.5%; */
@@ -136,11 +144,15 @@ aside {
     /* margin-bottom: 0.5%; */
     font-family: serif;
     font-style: italic;
+    
+
 }
 
 aside h2 {
     text-align: center;
-    color: white;
+    color: darkblue;
+    font-size: 2rem;
+    
 }
 
 aside #mail_link {
@@ -149,7 +161,10 @@ aside #mail_link {
 
 
 aside blockquote {
-    text-align: center
+margin-left: 8px;
+    font-family:serif;
+    font-size: 16px;
+
 }
 
 aside div {
@@ -163,17 +178,18 @@ div.video {
 
 div.table {
     margin-left: 8%;
-    color: rgb(68, 9, 68);
+    color: rgb(214, 94, 94);
 
 
 }
+
 
 div.form {
     background-color: rgb(240, 223, 229);
 }
 
 div.form:hover {
-    color: rgb(65, 11, 65);
+    color: rgb(214, 94, 94);
 }
 
 div#page {
@@ -185,7 +201,7 @@ div#page {
 /* Style för footer på alla sidor */
 
 footer {
-    background-color: darkblue;
+    background-color: rgb(81, 96, 184);
     float: left;
     width: 86%;
     margin-top: 0.5%;
@@ -207,7 +223,7 @@ div.wrapper {
 
 div.wrapper h3 {
 
-    color: peru;
+    color: rgb(214, 94, 94);
 
     flex: 1;
     width: 40%;
@@ -231,7 +247,7 @@ div.wrapper img {
 
 
 div.gallery {
-    background-color: lavenderblush;
+    background-color: white;
     box-sizing: flex-box;
     display: flex;
 
@@ -239,8 +255,8 @@ div.gallery {
 
 figure.item {
     width: 28%;
-    border: 1px solid rgb(150, 120, 150);
-    background-color: rgb(247, 221, 244);
+    border: 1px solid rgb(214, 94, 94);
+    background-color: rgb(211, 136, 136);
     margin: 2%;
     float: left;
 
