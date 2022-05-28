@@ -124,6 +124,17 @@ main ul #dark {
 
 }
 
+button {
+    background-color:rgb(81, 96, 184) ;
+    color:white;
+    margin-left: 25px;
+
+}
+
+aside li {
+    margin-left: 10px;
+}
+
 
 
 /* Style för body på alla sidor */
@@ -152,6 +163,7 @@ aside h2 {
     text-align: center;
     color: darkblue;
     font-size: 2rem;
+    
     
 }
 
