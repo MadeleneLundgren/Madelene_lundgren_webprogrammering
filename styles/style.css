@@ -39,7 +39,12 @@ nav {
 
 nav a[href] {
     color: white;
+    
 }
+
+nav a:active {
+    background-color: blue;
+  }
 
 /* Style för main på alla sidor */
 
