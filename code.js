@@ -1,6 +1,6 @@
 /* 
 
-// knapp för att kunna spela uttal på koranska 
+// knappar för att kunna spela uttal på koranska 
 
         /* setup
 ------------------------ */
@@ -15,58 +15,55 @@ const button5 = document.querySelector("#start5");
 
 
 
-
-
-
 /* händelselyssnare
 ------------------------ */
 button1.addEventListener("click", function () {
-    
-     // starta ljud
-   playSound("hello.mp3");
 
-   
-    
-    
+    // starta ljud
+    playSound("hello.mp3");
+
+
+
+
 })
 
 button2.addEventListener("click", function () {
 
     // starta ljud
-   playSound("nicetomeetyou.mp3");
+    playSound("nicetomeetyou.mp3");
 
 
 
-    
+
 })
 
 button3.addEventListener("click", function () {
 
     // starta ljud
-   playSound("thankyou.mp3");
+    playSound("thankyou.mp3");
 
 
 
-    
+
 })
 
 button4.addEventListener("click", function () {
 
     // starta ljud
-   playSound("excuseme.mp3");
+    playSound("excuseme.mp3");
 
 
 
-    
+
 })
 
 button5.addEventListener("click", function () {
 
     // starta ljud
-   playSound("howmuchisit.mp3");
+    playSound("howmuchisit.mp3");
 
 
-    
+
 })
 
 
@@ -87,7 +84,7 @@ function playSound(start1) {
     audio.play();
 
 
-    
+
 }
 
 function playSound(start2) {
@@ -103,7 +100,7 @@ function playSound(start2) {
 
     audio.play();
 
-    
+
 }
 
 function playSound(start3) {
@@ -118,7 +115,7 @@ function playSound(start3) {
     //spela ljud
 
     audio.play();
-    
+
 }
 
 function playSound(start4) {
@@ -149,6 +146,5 @@ function playSound(start5) {
 
     audio.play();
 
-    
-}
 
+}

@@ -1,4 +1,4 @@
-/* Style för header på alla sidor förutom intresse.html */
+/* Style för header på alla sidor förutom index.html */
 
 header {
     position: relative;
@@ -6,13 +6,13 @@ header {
 
 header img {
 
- 
+
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: 50%;
     width: 100%;
     height: 400px;
-   
+
 
 }
 
@@ -30,32 +30,27 @@ nav {
     background-color: rgb(81, 96, 184);
     float: left;
     width: 100%;
-    
+
     margin-bottom: 0.5%;
-    
+
     font-family: cursive;
 
 }
 
 nav a[href] {
     color: white;
-    
+
 }
 
 nav a:active {
     background-color: blue;
-  }
+}
 
 /* Style för main på alla sidor */
 
 main {
     background-color: white;
-    /* float: left; */
     width: 72%;
-    /* margin-top: 0.5%; */
-    /* margin-right: 7%; */
-    /* margin-bottom: 0.5%; */
-    /* margin-left: 0.5%; */
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -84,7 +79,7 @@ main article {
     margin-left: 5%;
     margin-right: 5%;
     padding: 1%;
-    
+
 }
 
 
@@ -113,7 +108,7 @@ main p:hover {
 
 main hr {
     text-align: center;
-    border-style:dotted;
+    border-style: dotted;
     border-width: 2px;
     color: rgb(81, 96, 184);
 
@@ -127,69 +122,6 @@ main ul #dark {
     color: rgb(214, 94, 94);
 
 }
-
-button {
-    background-color:rgb(81, 96, 184) ;
-    color:white;
-    margin-left: 25px;
-
-}
-
-aside li {
-    margin-left: 10px;
-}
-
-
-
-/* Style för body på alla sidor */
-body {
-    background-color: white;
-}
-
-/* Style för aside på alla sidor */
-
-
-aside {
-    background-color: rgb(214, 94, 94);
-    /* float: left; */
-    width: 28%;
-    /* margin-top: 0.5%; */
-    margin-right: 1.5%;
-    /* margin-left: 7%; */
-    /* margin-bottom: 0.5%; */
-    font-family: serif;
-    font-style: italic;
-    
-
-}
-
-aside h2 {
-    text-align: center;
-    color: darkblue;
-    font-size: 2rem;
-    
-}
-
-
-
-
-aside blockquote {
-margin-left: 8px;
-    font-family:serif;
-    font-size: 16px;
-
-}
-
-aside ol {
-    margin-right: 40px;
-}
-
-
-
-aside div {
-    text-align: center;
-}
-
 
 div.video {
     text-align: center;
@@ -216,6 +148,71 @@ div#page {
     margin: 0 auto;
     display: flex
 }
+
+
+
+
+
+/* Style för body på alla sidor */
+body {
+    background-color: white;
+}
+
+/* Style för aside på alla sidor */
+
+
+aside {
+    background-color: rgb(214, 94, 94);
+    /* float: left; */
+    width: 28%;
+    /* margin-top: 0.5%; */
+    margin-right: 1.5%;
+    /* margin-left: 7%; */
+    /* margin-bottom: 0.5%; */
+    font-family: serif;
+    font-style: italic;
+
+
+}
+
+aside h2 {
+    text-align: center;
+    color: darkblue;
+    font-size: 2rem;
+
+}
+
+
+
+
+aside blockquote {
+    margin-left: 8px;
+    font-family: serif;
+    font-size: 16px;
+
+}
+
+aside ol {
+    margin-right: 40px;
+}
+
+
+
+aside div {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(81, 96, 184);
+    color: white;
+    margin-left: 25px;
+
+}
+
+aside li {
+    margin-left: 10px;
+}
+
 
 /* Style för footer på alla sidor */
 
@@ -267,8 +264,8 @@ div.wrapper img {
 
 div.gallery {
     background-color: white;
-    box-sizing:flex-box;
-    display:flex;
+    box-sizing: flex-box;
+    display: flex;
 
 }
 
@@ -290,7 +287,7 @@ figure.item img {
 figure.item figcaption {
     padding: 10px;
     text-align: center;
-    
+
 }
 
 figure.item img:hover {
@@ -302,20 +299,20 @@ figure.item img:hover {
 
 @media only screen and (max-width: 320px) {
     div.gallery {
-        box-sizing:flex-box;
+        box-sizing: flex-box;
         flex-direction: column;
-    
+
     }
-  }
+}
 
 /* För mobil - anpassa utseende för landscape mode */
 
 @media only screen and (max-width: 578px) {
     div.gallery {
 
-        box-sizing:flex-box;
+        box-sizing: flex-box;
         flex-direction: column;
-    
+
     }
 }
 
@@ -323,10 +320,10 @@ figure.item img:hover {
 
 @media only screen and (max-width: 768px) {
     div.gallery {
-        
-        box-sizing:flex-box;
+
+        box-sizing: flex-box;
         flex-direction: column;
-    
+
     }
 }
 
@@ -334,13 +331,11 @@ figure.item img:hover {
 
 @media only screen and (max-width: 1200px) {
     div.gallery {
-        
-        box-sizing:flex-box;
+
+        box-sizing: flex-box;
         flex-direction: column;
-    
+
     }
 
 
-  }
-
-
+}
