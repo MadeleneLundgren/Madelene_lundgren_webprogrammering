@@ -295,28 +295,47 @@ figure.item img:hover {
 
 /* För mobil - anpassa utseende för stående */
 
-@media (min-width: 320px) {
-
-}
+@media only screen and (max-width: 320px) {
+    div.gallery {
+        box-sizing:flex-box;
+        flex-direction: column;
+    
+    }
+  }
 
 /* För mobil - anpassa utseende för landscape mode */
 
-@media (min-width: 578px) {
+@media only screen and (max-width: 578px) {
+    div.gallery {
 
+        box-sizing:flex-box;
+        flex-direction: column;
+    
+    }
 }
 
 /* För plattor - anpassa utseende för 768px */
 
-@media (min-width: 768px) {
-
+@media only screen and (max-width: 768px) {
+    div.gallery {
+        
+        box-sizing:flex-box;
+        flex-direction: column;
+    
+    }
 }
 
 /* För plattor - anpassa utseende för 1200px*/
 
-@media (min-width: 1200px) {
-    div.wrapper {
-        display:flex;
+@media only screen and (max-width: 1200px) {
+    div.gallery {
+        
+        box-sizing:flex-box;
+        flex-direction: column;
+    
     }
-}
+
+
+  }
 
 
