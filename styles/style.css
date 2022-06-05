@@ -37,6 +37,10 @@ nav {
 
 }
 
+.active {
+    background-color: rgb(42, 54, 126);
+}
+
 nav a[href] {
     color: white;
 
@@ -205,12 +209,17 @@ aside div {
 button {
     background-color: rgb(81, 96, 184);
     color: white;
-    margin-left: 25px;
+    margin-left: 20px;
 
 }
 
 aside li {
     margin-left: 10px;
+    margin-top: 10px;
+}
+
+aside p {
+    margin-left: 15px;
 }
 
 
